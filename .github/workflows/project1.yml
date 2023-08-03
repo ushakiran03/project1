@@ -12,7 +12,7 @@ jobs:
       - name: Upgrade pip
         run: python -m pip install --upgrade pip
       - name: run index.htmlfile
-        run: html index.html
+        run: index.html
         
 
         
