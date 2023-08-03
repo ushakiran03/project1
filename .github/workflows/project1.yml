@@ -17,5 +17,4 @@ jobs:
         run: sleep 5 
       - name: Print Hello World
         run: |
-          print("Hello World!")
-          print("Welcome to sample python project creation")
+          echo "Hello World!"
