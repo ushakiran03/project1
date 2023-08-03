@@ -17,4 +17,4 @@ jobs:
         run: sleep 5 
       - name: Print Hello World
         run: |
-          prit("Hello World!")
+          print("Hello World!")
