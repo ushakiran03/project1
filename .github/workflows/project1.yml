@@ -12,7 +12,9 @@ jobs:
       - name: Upgrade pip
         run: python -m pip install --upgrade pip
       - name: Start local web server
-        run: python -m http.server 8000 --directory ./
+        run: nohup python -m http.server 8000 --directory pythonproject1 &
+      - name: Wait for the web server to start
+        run: sleep 5 
       - name: Print Hello World
         run: |
-          print("Hello World!")
+          prit("Hello World!")
